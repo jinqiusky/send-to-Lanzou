@@ -1,11 +1,8 @@
 name: Push Frank Ver. to Lanzou-old
 
 on:
-  schedule:
-    - cron: 10,40 0-15,23 * * *
-  push:
-    branches:
-      - main
+   schedule:
+     - cron: 30 0,12 * * *
   workflow_dispatch:
 
 jobs:
