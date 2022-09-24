@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      upstreamCode: https://github.com/q215613905/TVBoxOS
+      upstreamCode: https://github.com/chengxue2020/q215613905-Tbox
       # 登录蓝奏云后在控制台运行document.cookie
       ylogin: ${{ secrets.YLOGIN }}
       phpdisk_info: ${{ secrets.PHPDISK_INFO }}
