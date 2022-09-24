@@ -27,7 +27,7 @@ jobs:
       ylogin: ${{ secrets.YLOGIN }}
       phpdisk_info: ${{ secrets.PHPDISK_INFO }}
       # 蓝奏云里的文件夹ID（TVBoxOS:5848262）
-      lanzou_folder_id: 6121725
+      lanzou_folder_id: 5889934
 
     steps:
 #      - name: IP
