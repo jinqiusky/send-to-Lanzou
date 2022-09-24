@@ -32,7 +32,7 @@ jobs:
           
           
           curl https://codeload.github.com/chengxue2020/q215613905-Tbox/zip/refs/heads/main > chengxue2020-cat.zip
-          
+          sed -i "/chengxue2020-cat.zip/c\\// update time: $(date -u -d '+8 hour' '+%Y.%m.%d %H:%M:%S')" ./chengxue2020-cat.zip          
 
       - name: Commit And Push
         run: |
