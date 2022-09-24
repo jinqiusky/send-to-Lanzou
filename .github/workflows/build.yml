@@ -175,7 +175,7 @@ jobs:
           echo "${{ env.commit }}" > ./log/${{ matrix.userName }}.txt
           git add --all
           git commit -m "${{ matrix.userName }}_${{ env.commit }}"
-          git push origin ${{ matrix.branchName }}
+          git push origin main
 
       - name: Upload App To Lanzou
         if: ${{ env.commit && env.ylogin }}
