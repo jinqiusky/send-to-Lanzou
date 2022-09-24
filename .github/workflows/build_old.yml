@@ -18,7 +18,7 @@ jobs:
       ylogin: ${{ secrets.YLOGIN }}
       phpdisk_info: ${{ secrets.PHPDISK_INFO }}
       # 蓝奏云里的文件夹ID（TVBoxOS:5848262）
-      LANZOU_FOLDER_ID: 6121725
+      LANZOU_FOLDER_ID: 5889934
 
     steps:
       - name: Checkout
