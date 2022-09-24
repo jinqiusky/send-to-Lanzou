@@ -1,4 +1,4 @@
-name: Download
+name: Download-cat-pkgs
 
 on:
    schedule:
