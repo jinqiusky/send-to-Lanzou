@@ -130,4 +130,4 @@ jobs:
         run: |
           python3 ${{ github.workspace }}/actions/.github/scripts/lzy_web.py \
           "${{ github.workspace }}/TVBoxOSC/apk/TVBox_release_${{ env.tag }}.apk" "$LANZOU_FOLDER_ID"
-          echo "share address: https://wwi.lanzoup.com/b0dah3rlc  password:celetor"
+          echo "share address: https://wws.lanzouv.com/b03pbjwof password:TVBox"
