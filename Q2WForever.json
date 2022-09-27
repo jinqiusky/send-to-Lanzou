@@ -1,4 +1,4 @@
-// update time: 2022.09.26 21:30:02
+// update time: 2022.09.27 11:14:11
 {
   "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;A20D905572096E70FE12FDB3B5BAFAFA",
   "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpL1lvdXJzbWlsZTcvVFZCb3gvcmF3L2JyYW5jaC9tYXN0ZXIvbGl2ZS50eHQ="]}]}],
