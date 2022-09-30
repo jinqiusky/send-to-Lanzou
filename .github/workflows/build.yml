@@ -129,7 +129,7 @@ jobs:
           mkdir -p apk/
           for file in `find . -name "*release*.apk" -print`; do
             echo $file
-            mv "$file" apk/TVBox_${{ matrix.userName }}_${{ env.tag }}.apk
+            mv "$file" apk/TVBox1_${{ matrix.userName }}_${{ env.tag }}.apk
           done
 
       - name: Write Update Changelog
@@ -181,5 +181,5 @@ jobs:
         if: ${{ env.commit && env.ylogin }}
         run: |
           python3 ${{ github.workspace }}/actions/.github/scripts/lzy_web.py \
-          "${{ github.workspace }}/TVBoxOSC/apk/TVBox_${{ matrix.userName }}_${{ env.tag }}.apk" "$lanzou_folder_id"
+          "${{ github.workspace }}/TVBoxOSC/apk/TVBox1_${{ matrix.userName }}_${{ env.tag }}.apk" "$lanzou_folder_id"
           echo "share address: https://wws.lanzouv.com/b03pbjwof password:TVBox
