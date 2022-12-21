@@ -1,4 +1,4 @@
-// update time: 2022.12.20 20:55:46
+// update time: 2022.12.21 09:52:15
 {
     "wallpaper":"https://henryqinup.github.io/JK/background.jpg",
     "dr_count": 119,
@@ -144,7 +144,7 @@
             "filterable": 0,
             "ext": "http://101.34.67.237/js/LIBVIO.js"
         },
-{
+        {
             "key": "dr_真不卡",
             "name": "真不卡(drpy)",
             "type": 3,
@@ -154,7 +154,7 @@
             "filterable": 0,
             "ext": "http://101.34.67.237/js/真不卡.js"
         },
-	{
+        	{
 	    "key":"Alist",
 	    "name":"Alist",
 	    "type":3,
@@ -1606,7 +1606,17 @@
         }
     ],
     "parses": [
-                {
+{
+		"name": "Json聚合",
+		"type": 3,
+		"url": "Demo"
+	},
+ {
+		"name": "Web聚合",
+		"type": 3,
+		"url": "Web"
+	},
+{
             "name": "轮询",
             "type": 2,
             "url": "Sequence",
