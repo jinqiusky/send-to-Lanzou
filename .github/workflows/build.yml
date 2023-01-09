@@ -21,6 +21,9 @@ jobs:
           - userName: takagen99
             repoUrl: https://github.com/takagen99/Box
             branchName: main
+          - userName: iptv
+            repoUrl: https://github.com/s723138643/iptv
+            branchName: main
     env:
       local_xwalk: ${{ secrets.LOCAL_XWALK }}
       # 登录蓝奏云后在控制台运行document.cookie
